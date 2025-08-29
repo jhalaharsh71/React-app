@@ -58,30 +58,30 @@ function Footer() {
           <div className="footer-column">
             <h3 style={{ color: "#333" }}>Men</h3>
             <ul>
-              <li><Link to="/Mens/tshirt" style={{ color: "#333", textDecoration: "none" }}>T-shirts</Link></li>
-              <li><Link to="/Mens/shirt" style={{ color: "#333", textDecoration: "none" }}>Shirts</Link></li>
-              <li><Link to="/Mens/jeans" style={{ color: "#333", textDecoration: "none" }}>Jeans</Link></li>
-              <li><Link to="/Mens/shoes" style={{ color: "#333", textDecoration: "none" }}>Shoes</Link></li>
+              <li style={{ color: "#333", textDecoration: "none" }}>T-shirts</li>
+              <li style={{ color: "#333", textDecoration: "none" }}>Shirts</li>
+              <li style={{ color: "#333", textDecoration: "none" }}>Jeans</li>
+              <li style={{ color: "#333", textDecoration: "none" }}>Shoes</li>
             </ul>
           </div>
 
           <div className="footer-column">
             <h3 style={{ color: "#333" }}>Women</h3>
-            <ul>
-              <li><Link to="/Womens/kurti" style={{ color: "#333", textDecoration: "none" }}>Kurtis</Link></li>
-              <li><Link to="/Womens/tshirt" style={{ color: "#333", textDecoration: "none" }}>T-shirts</Link></li>
-              <li><Link to="/Womens/jeans" style={{ color: "#333", textDecoration: "none" }}>Jeans</Link></li>
-              <li><Link to="/Womens/saree" style={{ color: "#333", textDecoration: "none" }}>Sarees</Link></li>
+             <ul>
+              <li style={{ color: "#333", textDecoration: "none" }}>T-shirts</li>
+              <li style={{ color: "#333", textDecoration: "none" }}>Shirts</li>
+              <li style={{ color: "#333", textDecoration: "none" }}>Jeans</li>
+              <li style={{ color: "#333", textDecoration: "none" }}>Shoes</li>
             </ul>
           </div>
 
           <div className="footer-column">
             <h3 style={{ color: "#333" }}>Sneakers</h3>
-            <ul>
-              <li><Link to="/Sneakers/Jordens" style={{ color: "#333", textDecoration: "none" }}>Jordans</Link></li>
-              <li><Link to="/Sneakers/Puma" style={{ color: "#333", textDecoration: "none" }}>Puma</Link></li>
-              <li><Link to="/Sneakers/Nike" style={{ color: "#333", textDecoration: "none" }}>Nike</Link></li>
-              <li><Link to="/Sneakers/Adidas" style={{ color: "#333", textDecoration: "none" }}>Adidas</Link></li>
+             <ul>
+              <li style={{ color: "#333", textDecoration: "none" }}>Nike</li>
+              <li style={{ color: "#333", textDecoration: "none" }}>Adidas</li>
+              <li style={{ color: "#333", textDecoration: "none" }}>Puma</li>
+              <li style={{ color: "#333", textDecoration: "none" }}>Jordens</li>
             </ul>
           </div>
 
@@ -90,18 +90,18 @@ function Footer() {
             <ul>
               <li><Link to="/about" style={{ color: "#333", textDecoration: "none" }}>About Us</Link></li>
               <li><Link to="/contact" style={{ color: "#333", textDecoration: "none" }}>Contact</Link></li>
-              <li><Link to="/privacy" style={{ color: "#333", textDecoration: "none" }}>Privacy Policy</Link></li>
-              <li><Link to="/terms" style={{ color: "#333", textDecoration: "none" }}>Terms of Service</Link></li>
+              <li style={{ color: "#333", textDecoration: "none" }}>Privacy Policy</li>
+              <li style={{ color: "#333", textDecoration: "none" }}>Terms of Service</li>
             </ul>
           </div>
 
           <div className="footer-column">
             <h3 style={{ color: "#333" }}>Stay Connected</h3>
-            <div className="social-icons">
-              <a href="#" aria-label="Facebook" ><i className="fab fa-facebook-f"></i></a>
-              <a href="#" aria-label="Instagram" ><i className="fab fa-instagram"></i></a>
-              <a href="#" aria-label="Twitter" ><i className="fab fa-twitter"></i></a>
-              <a href="#" aria-label="Pinterest"><i className="fab fa-pinterest-p"></i></a>
+             <div className="social-icons">
+              <a  aria-label="Facebook" style={{color:"white"}}><i className="fab fa-facebook-f"></i></a>
+              <a  aria-label="Instagram" style={{color:"white"}} ><i className="fab fa-instagram"></i></a>
+              <a  aria-label="Twitter" style={{color:"white"}} ><i className="fab fa-twitter"></i></a>
+              <a  aria-label="Pinterest" style={{color:"white"}}><i className="fab fa-pinterest-p"></i></a>
             </div>
             <div className="newsletter">
               <h4 style={{ color: "#333" }}>Subscribe to our newsletter</h4>
@@ -117,7 +117,7 @@ function Footer() {
           </div>
         </div>
 
-        <div className="contact-section">
+        <div className="contact-section" id="section1">
           <h2 style={{ color: "#333", fontWeight: "bold", paddingTop: "2rem" }}>GET IN TOUCH</h2>
           <form className="contact-form" onSubmit={handleSubmit}>
             <div className="form-row" style={{ display: "flex", gap: "4%" }}>
@@ -162,9 +162,9 @@ function Footer() {
         </div>
 
         <div className="contact-info" style={{ textAlign: "center", marginTop: "2rem" }}>
-          <p style={{ display: "inline", marginRight: "20px" }}><i className="fas fa-phone" style={{ marginRight: "5px" }}></i> (+91) 8522369417</p>
-          <p style={{ display: "inline", marginRight: "20px" }}><i className="fas fa-envelope" style={{ marginRight: "5px" }}></i> demo@gmail.com</p>
-          <p style={{ display: "inline" }}><i className="fas fa-map-marker-alt" style={{ marginRight: "5px" }}></i> 123 Fashion Street, City, Country</p>
+          <p style={{ display: "inline", marginRight: "20px" }}><i className="fas fa-phone" style={{ marginRight: "5px" }}></i> (+91) 7415006902</p>
+          <p style={{ display: "inline", marginRight: "20px" }}><i className="fas fa-envelope" style={{ marginRight: "5px" }}></i> harshvardhansinghjhala122@gmail.com</p>
+          <p style={{ display: "inline" }}><i className="fas fa-map-marker-alt" style={{ marginRight: "5px" }}></i> 123 Market Street, Dewas, Madhya pradesh, India</p>
         </div>
       </div>
 
@@ -176,7 +176,7 @@ function Footer() {
         borderTop: "1px solid #ddd",
         marginTop: "2rem"
       }}>
-        <p style={{ color: "#333", margin: 0 }}>&copy; {new Date().getFullYear()} Your Brand Name. All rights reserved.</p>
+        <p style={{ color: "#333", margin: 0 }}>&copy; {new Date().getFullYear()} My Brand. All rights reserved.</p>
         <div className="payment-methods">
           <i className="fab fa-cc-visa" style={{ color: "#333", marginLeft: "10px" }}></i>
           <i className="fab fa-cc-mastercard" style={{ color: "#333", marginLeft: "10px" }}></i>

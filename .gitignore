@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Logs
 logs
 *.log
@@ -23,7 +23,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-=======
+
 ### AL ###
 #Template for AL projects for Dynamics 365 Business Central
 #launch.json folder
@@ -46,4 +46,4 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
->>>>>>> 0f0cfa87ef077dadf0c8016ca7e8464a9e508f61
+

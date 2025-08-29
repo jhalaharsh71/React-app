@@ -504,9 +504,31 @@
             50% { transform: scale(1.1); }
             100% { transform: scale(1); }
           }
-          .hover-cart:hover {
-            background-color: rgba(0,0,0,0.05);
-          }
-          .hover-cart:hover i {
-            transform: scale(1.1);
-          }
+        .auth-modal .modal-content {
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.auth-tab-button {
+  flex: 1;
+  text-align: center;
+  padding: 10px 0;
+  margin: 0 5px;
+  border-radius: 8px;
+  border: 1px solid #ced4da;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: #f8f9fa;
+  color: #495057;
+}
+
+.auth-tab-button:hover {
+  background-color: #e2e6ea;
+}
+
+.auth-tab-button.active-tab {
+  background-color: #0d6efd;
+  color: white;
+  border-color: #0d6efd;
+}

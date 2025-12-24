@@ -13,3 +13,6 @@ A modern eCommerce platform built with Vite and React, designed for high perform
 Developer-Focused
 
 An eCommerce frontend built with Vite and React, showcasing modern React practices, fast build times, and a scalable project structure for online shopping applications.
+
+
+Email: harshvardhansinghjhala122@gmail.com
